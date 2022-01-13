@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stream with Magewell encoder
+title: Setup with other SRT encoder
 nav_order: 2
 ---
 
@@ -14,10 +14,24 @@ nav_order: 2
 + [Adjust color settings](#adjustcolorsettings)
 + [Troubleshooting](#troubleshooting)
 
+Contact us to get login details.
 
 ## Getting Started <a name = "getting_started"></a>
+
+- Setup an SRT Caller stream
+- Enter the server details you get from us 
+
+
 - Connect SDI, ethernet and power.
 - Login using the link written on the backside of the box. 
+
+
+svag 
+turbo - 
+kamkedja
+
+
+
 
 ## View the Stream <a name = "viewstream"></a>
 The simplest way to view the stream is using the "Web link with embedded password”. This link has everything embedded so just send it to your clients and they will see the stream immediately. 
@@ -37,7 +51,7 @@ The box is set to 6 Mbit when you get it which is a good mix between quality and
 
 - Click “Encoding Parameters” and then Advanced settings. Change bitrate and save.
 
-- Then go to the login.pixelview page and change Chrome/Firefox h264 bitrate. This is the setting we use to generate a h264 on our server that's used for Chrome/Firefox since they don't support h265.
+- Then go to the login.pixelview page and change h264 bitrate as well. This is the setting we use to generate the h264 for Chrome/Firefox on our server.
 
 ## Connect to Wifi <a name = "connecttowifi"></a>
 - Locate the encoders IP address on your network by checking your routers DHCP list. Then open it in your web browser. 192.168.1.207 for example.

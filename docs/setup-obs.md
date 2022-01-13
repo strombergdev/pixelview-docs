@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Setup OBS
+title: Stream with OBS
 nav_order: 1
 ---
 
@@ -56,7 +56,7 @@ Best color accuracy and quality is in the iPhone, iPad or Apple TV apps. Downloa
 ## Change bitrate <a name = "changebitrate"></a>
 - Adjust the bitrate in OBS by going to Settings, Output and setting it to a value between 1000-12000 Kbps. 
 
-- Then go to the login.pixelview page and change h264 bitrate as well. This is the setting we use to generate the h264 for Chrome/Firefox on our server.
+- Then go to the login.pixelview page and change Chrome/Firefox h264 bitrate as well to match.
 
 ## Troubleshooting <a name = "troubleshooting"></a>
 If you are seeing artefacts or other glitches in the stream there are a couple of settings to change. 
